@@ -27,6 +27,12 @@ for s in data:
 		print(s)
 print(len(new))
 
+good=[]
+for g in data:
+	if 'good' in g:
+		good.append(g)
+print(len(good))
+print(good[0])
 
 
 
