@@ -43,5 +43,6 @@ def main1():
 		date_write(filename_A,data_B)
 
 #最後只有一句話，就可以處理所有的事情，或是取消
+#這樣這要做很多種function跟合成不同的mainX()
 
 main1()

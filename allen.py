@@ -1,6 +1,5 @@
-#自我練習
+#自我練習#1
 #今天有建立了一個.csv檔，然後將訊號名稱，電壓,電流輸入進去。
-#請用function的方式處理
 
 
 #建立自訂名稱的csv檔案
@@ -22,7 +21,7 @@ while True:
 	d.append(current)
 	data.append(d)
 
-#將data[]的資料，存在新建立的資料夾內
+#將data[]的資料，存在新建立的.csv內
 
 with open(filename+'.csv','w') as f:
 	f.write('訊號名稱,電壓,電流,\n') 
