@@ -65,4 +65,4 @@ def fun2():
 	else:
 		print('不可輸入小於等於0的術')
 
-fun2()
+
