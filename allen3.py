@@ -72,3 +72,4 @@ def dic_singlesymbo():
 		else:
 			dic[xx] = 1
 	print(dic)
+    print(dic)
