@@ -72,16 +72,3 @@ def dic_singlesymbo():
 		else:
 			dic[xx] = 1
 	print(dic)
-
-
-
-from openpyxl import Workbook
-wb = Workbook()
-
-# grab the active worksheet
-ws = wb.active
-
-wb.append(dic_singlesymbo())
-
-# Save the file
-wb.save("sample.xlsx")
