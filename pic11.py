@@ -1,3 +1,4 @@
+#SOP-1
 #新版的goodinfo的抓檔
 
 import os
@@ -45,8 +46,8 @@ def main():
     driver = webdriver.Chrome(options=chrome_options)
 
     # 新的元素ID
-    new_element_id1 = 'inputSTART_DT'
-    new_element_id2 = 'inputEND_DT'
+    new_element_id1 = 'edtSTART_DT'
+    new_element_id2 = 'edtEND_DT'
 
     # 获取当前年份
     current_year = datetime.datetime.now().year

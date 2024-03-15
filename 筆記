@@ -1,0 +1,34 @@
+筆記
+
+宣告 = 創作的意思，declare
+程式碼在跑的時候，逐行執行，只有遇到第一次的東西，才有創造的意味，再次遇到只是塗改
+
+assignment 就是那些等號或是運算符號
+
+int >>整數
+floot >> 小數點
+boolean: bool  >> true or fales
+string: str >> 字串
+
+
+---
+
+age = input('plz input ur age:  ')
+#input 輸入之後，會轉成字串，所以要作資料型別轉換
+age = int(age)
+
+import = 載入別人已經處理好的程式
+
+
+=vlookup(L$2&$K3,$A:$E,5,false())
+=countif($M3:$R3,F$1)
+
+
+
+
+
+1. 抓execl資料
+2. 先處理excel內部的無用資料
+3. 合併excel 留意重複項
+4. 可以放上google sheet 作樞紐分析
+5. 如果要線下，那還有別的可以處理 (待學習)
